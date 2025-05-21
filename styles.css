@@ -12,6 +12,7 @@ body {
     background: white;
     overflow: hidden;
     height: auto;
+    margin: 10px;
 }
 .encabezado {
     display: flex;
@@ -42,11 +43,14 @@ body {
     height: 380px;
     overflow: hidden;
 }
+.downpost {
+    margin: 10px;
+}
 .items {
     padding: 10px 8px;
     display: flex;
     align-items: center;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .items i.fa-bookmark {
@@ -64,6 +68,7 @@ body {
     padding: 10px;
 }
 .footer {
-    text-align:justify;
+    text-align: justify;
     padding: 10px;
 }
+
